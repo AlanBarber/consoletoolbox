@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BE56887B-AE35-45FE-B720-9896B665164A}</ProjectGuid>
+    <ProjectGuid>{6BD7BB20-19F0-443D-A0B7-AB3D626CF4BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleToolBox.Demo</RootNamespace>
-    <AssemblyName>ConsoleToolBox.Demo</AssemblyName>
+    <RootNamespace>ConsoleToolBoxDemo</RootNamespace>
+    <AssemblyName>ConsoleToolBoxDemo</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
+    <StartupObject>ConsoleToolBoxDemo.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
@@ -50,13 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ConsoleToolBox\ConsoleToolBox.csproj">
-      <Project>{02CBC673-949F-4AB0-A81C-ADC7D9B3F09B}</Project>
+      <Project>{5E97C2F5-4600-455F-BF44-775F41C22C64}</Project>
       <Name>ConsoleToolBox</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

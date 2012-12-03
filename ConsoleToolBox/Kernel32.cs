@@ -5,14 +5,14 @@ using System.Text;
 namespace ConsoleToolBox
 {
     /// <summary>
-    /// Kernel32ConsoleFunctions holds the imported Kernel32.dll functions and data structures needed to directly access 
+    /// Kernel32 holds the imported Kernel32.dll functions and data structures needed to directly access 
     /// and modify the console that are not provided from the .net managed platform. Yup we have to reach outside of managed 
     /// code to do some of  the fancy console work. I want to keep this all some what seperate since this is platform 
     /// dependant and may change in future version of window. 
     /// 
     /// TODO: This should be refactored a bit at some point but for right now it will work fine
     /// </summary>
-    internal class Kernel32ConsoleFunctions
+    internal class Kernel32
     {
         #region Data Structures & Enums
 

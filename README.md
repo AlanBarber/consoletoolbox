@@ -43,3 +43,18 @@ ConsoleToolBox.Dialogs
                 to select a response.
  * OpenFileDialog - A text version of the .net OpenFileDialog tool.
  * SaveFileDialog - A text version of the .net SaveFileDialog tool.
+ 
+Requirements
+============
+ 
+ * Microsoft .Net 4.0 
+ * Windows XP SP2, Windows Vista, Windows 7, Windows 8, Windows Server 2003 R2, Windows Server 2008 R2
+ * Microsoft Visual Studio 2010 (to build)
+ 
+ 3rd Party Libraries
+ 
+ * Apache log4net - http://logging.apache.org/log4net/
+ 
+ 
+ 
+ 
